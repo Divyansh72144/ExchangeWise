@@ -1,0 +1,24 @@
+/* Header.css */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+
+.header-title {
+    font-size: 24px;
+    color: #333; 
+    border:1px solid black;
+    height:1em;
+    font-family:'Open Sans',sans-serif;
+
+    /*Flexbox styles */
+    display:flex;
+    justify-content:flex-start;     /*horizontal centering */
+    align-items: center;     /*vertical centering */
+    margin-left:10px;
+    color:#ffffff;
+  }
+
+  .main-header{
+    border:1px solid black;
+    height:4.2em;
+    margin-top:-10px;
+    background-color:#000000 ;
+  }
