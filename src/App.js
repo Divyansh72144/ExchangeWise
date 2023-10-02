@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Content from "./components/main-text-pic";
 import Intro from "./components/intro";
 import Currencies from "./components/currencies";
+// import CurrencyConverter from "../components/currencyAPI";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Content />
       <Intro />
       <Currencies />
+      {/* <CurrencyConverter /> */}
     </div>
   );
 }
