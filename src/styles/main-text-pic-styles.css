@@ -30,6 +30,14 @@
 
   }
 
+
+  .round-button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  html {
+    scroll-behavior: smooth;
+  }  
+
   .desc{
     position: absolute;
     top: 60%; /* Adjust the top value as needed */

@@ -4,7 +4,7 @@ import CurrencyConverter from "../components/currencyAPI";
 
 const Currencies = () => {
   return (
-    <div className="currency-box">
+    <div id="currencies-section" className="currency-box">
       <span id="topic">Currencies</span>
       <CurrencyConverter />
     </div>

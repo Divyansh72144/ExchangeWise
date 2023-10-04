@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Freecurrencyapi from "@everapi/freecurrencyapi-js";
 import "../styles/currencyAPI-styles.css";
-
+import { BsCurrencyExchange } from "react-icons/bs";
 const freecurrencyapi = new Freecurrencyapi(
   "fca_live_HTkXU6zDfGoPRgioZo8AZ0m2r2Q18JHHPEiCMT34"
 );
@@ -92,16 +92,12 @@ function CurrencyConverter() {
     }
   }, [fromCurrency, toCurrency, amount]);
 
-  const copyCurrenciesToClipboard = () => {
-    const currenciesText = currencies.join(", ");
-    navigator.clipboard.writeText(currenciesText);
-    alert("Currencies copied to clipboard!");
-  };
-
   return (
     <div className="currency-container">
       <div className="currency-conversion-box">
-        <h1>Currency Converter</h1>
+        <h1>
+          Currency Converter <BsCurrencyExchange />
+        </h1>
         <div className="input-row-container">
           {/* Amount Container */}
           <div className="input-container">
