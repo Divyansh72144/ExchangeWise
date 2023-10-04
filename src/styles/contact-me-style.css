@@ -1,70 +1,121 @@
-.contact-area{
-    background-color:#242622;
-    height: 30em;
-    padding-top: 2.5em; /* Add padding to create space above the content */
-    text-align: left; /* Align text to the left */
-    
-    
+.contact-area {
+  background-color: #242622;
+  padding-top: 2.5em;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
-#contact-heading{    font-size: 2.5em;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 1.2em;
+#contact-heading {
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 1.2em;
 }
-.text-area{
-    margin-right:40em;
-    margin-top:3em;
-    margin-left: 2em; 
-    text-align: left; 
-    font-size:0.9em;
+
+.text-area {
+  margin-right: 2em;
+  margin-top: 3em;
+  margin-left: 2em;
+  text-align: left;
+  font-size: 0.9em;
 }
 
 .profile-pic {
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    border: 1px solid white;
-    position: relative; /* Add relative positioning */
-    overflow: hidden; /* Hide overflowing content */
-    margin-top: 50px;
-    margin-left:2em;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-left: 2em;
+}
+
+.profile-pic div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.contact-box {
+  margin-left: 2em;
+  padding: 1em;
+  color: white;
+  font-size: 1.3em;
+  background-color: #343434;
+  text-align: center;
+}
+
+.contact-box input[type="text"] {
+  font-size: 1.2em;
+  width: 100%; /* Make input fields take up full width */
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Responsive Styling */
+@media screen and (min-width: 768px) {
+  .contact-area {
+    height: auto; /* Adjust height for smaller screens */
   }
-  
-  .profile-pic div {
-    position: absolute; /* Add absolute positioning */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center the text precisely */
-    color: white; /* Set text color to white */
+
+  .text-area {
+    margin-right: 0; /* Remove right margin on smaller screens */
   }
+
   .contact-box {
-    top: 50%;
-    transform: translate(0, -180%);
-    margin-left: 45em;
-    padding: 1em;
-    color: white;
-    font-size: 1.3em;
-    background-color: #343434;
-    width: 30em;
-    height: 10em;
-    text-align: center;
-    -webkit-transform: translate(0, -180%);
-    -moz-transform: translate(0, -180%);
-    -ms-transform: translate(0, -180%);
-    -o-transform: translate(0, -180%);
+    margin-left: 29em;
+    margin-top:-15em;
+    width: 50%; /* Make contact box take full width on smaller screens */
   }
-  
-  .contact-box input[type="text"] {
-    font-size: 1.2em; /* Adjust the font size for input fields */
-    width: 5em; /* Make the input fields take up the full width */
-    padding: 0.5em; /* Add padding to the input fields */
-    margin-bottom: 0.5em; /* Add spacing between input fields */
-  }
-  
+
   @media screen and (min-width: 2000px) {
     .contact-box {
-      margin-left: 70em;
+      margin-left: 43em;
     }
   }
-  
+}
+/* Add this CSS to style the input fields */
+/* Add this CSS to style the input fields */
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5em;
+}
+
+.input-field {
+  flex: 1;
+  margin-right: 1em;
+}
+
+/* Style the labels to be bold and on the same line as input fields */
+.input-field label {
+  font-weight: bold;
+  display: block; /* Display labels as blocks (one per line) */
+  margin-bottom: 0.2em; /* Add spacing between labels and input fields */
+}
+
+/* Adjust input field width for better alignment */
+.input-field input[type="text"] {
+  width: 100%;
+  padding: 0.5em; /* Adjust padding for better size */
+  font-size: 1em; /* Adjust font size for better readability */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.send-button{
+    width: 150px;
+    /*Adjustthewidthasneeded*/height: 50px;
+    /*Adjusttheheightasneeded*/border-radius: 10px;
+    /*Adjusttheborder-radiustomakeroundedcorners*/border: 2px solid white;
+    /*Borderfortherectangle(youcanchangethecolor)*/background-color: transparent;
+    /*Transparentbackground*/color:white;
+    font-size: 0.7em;
+    font-family:'Open Sans',sans-serif;
+    cursor: pointer;
+ 
+}
