@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ExchangeWise/static/css/main.4b2c1202.css",
+    "main.js": "/ExchangeWise/static/js/main.316c086a.js",
+    "static/js/787.b6ec1592.chunk.js": "/ExchangeWise/static/js/787.b6ec1592.chunk.js",
+    "static/media/cv_photo.jpg": "/ExchangeWise/static/media/cv_photo.c710143a371b4b30d3ae.jpg",
+    "static/media/content-crop.jpeg": "/ExchangeWise/static/media/content-crop.630ea0a35a4a100fcd55.jpeg",
+    "index.html": "/ExchangeWise/index.html",
+    "main.4b2c1202.css.map": "/ExchangeWise/static/css/main.4b2c1202.css.map",
+    "main.316c086a.js.map": "/ExchangeWise/static/js/main.316c086a.js.map",
+    "787.b6ec1592.chunk.js.map": "/ExchangeWise/static/js/787.b6ec1592.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b2c1202.css",
+    "static/js/main.316c086a.js"
+  ]
+}
